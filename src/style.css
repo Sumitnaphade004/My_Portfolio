@@ -160,8 +160,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.4em !important;
+  width: 6.5em !important;
 }
 
 .navbar-nav .nav-link {
@@ -265,7 +265,7 @@ button:focus {
   /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  padding-bottom: 10px !important;
   padding-top: 30px !important;
 }
 
@@ -313,6 +313,13 @@ button:focus {
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  padding: 9em;
+}
+
+.avatar-img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 264px;
 }
 
 @media (max-width: 767px) {

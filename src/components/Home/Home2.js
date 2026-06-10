@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/PortFolio_Pic.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -14,33 +14,26 @@ function Home2() {
             </h1>
 
             <p className="home-about-body">
-              Hi, I'm <b className="purple">Sumit Naphade</b>, a passionate
-              Full-Stack Developer who enjoys building modern, scalable, and
-              user-friendly web applications. I love turning ideas into
-              real-world solutions through clean code and innovative technology.
-              <br />
-              <br />I have hands-on experience with
+              Hi, I'm <b className="purple">Sumit Naphade</b>, a Computer Engineering graduate and Full Stack Developer with a strong interest in building practical and user-friendly web and mobile applications.
+              enjoy working with technologies like
               <i>
                 <b className="purple">
                   {" "}
                   JavaScript, React.js, Node.js, Express.js, MongoDB, and React
-                  Native
+                  Native {" "}
                 </b>
               </i>
-              , and I enjoy developing both frontend and backend systems.
+              to create efficient solutions for real-world problems.
               <br />
               <br />    
-              I'm always eager to learn new technologies, solve challenging
-              problems, and create applications that make a meaningful impact.
-              Whenever possible, I enjoy working with
-              <b className="purple"> Node.js </b>,
-              <b className="purple"> React.js </b>, and modern web technologies
-              to build efficient and engaging digital experiences.
+              Through academic projects and internship experience, I have gained hands-on exposure to full-stack web development, mobile application development, REST APIs, database management, and modern development workflows. I enjoy turning ideas into functional applications, solving technical challenges, and continuously learning new technologies to improve my skills as a developer.
+              <br /><br />
+              I'm always eager to explore new opportunities, contribute to meaningful projects, and build software that delivers a great user experience across both web and mobile platforms.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="avatar-img" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
