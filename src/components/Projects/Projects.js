@@ -2,12 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import newsApp from "../../Assets/Projects/NewsApp.png";
+import textUtilsHome from "../../Assets/Projects/TextUtils_Home.png";
+import textUtilsAbout from "../../Assets/Projects/TextUtils_About.png";
+import iNoteBookLogin from "../../Assets/Projects/iNoteBook_Login.png";
+import iNoteBookSignup from "../../Assets/Projects/iNoteBook_SignUp.png";
+import iNoteBookHome from "../../Assets/Projects/iNoteBook_Home.png";
+import iNoteBookAbout from "../../Assets/Projects/iNoteBook_Home.png";
+import RTTTLogin from "../../Assets/Projects/RTTT_Login.png";
+import RTTTAdminDash from "../../Assets/Projects/RTTT_Admin_Dashboard.png";
+import RTTTRoute from "../../Assets/Projects/RTTT_Routes.png";
+import RTTTVehicles from "../../Assets/Projects/RTTT_Vehicles.png";
+import RTTTApp1 from "../../Assets/Projects/RTTT_App1.png";
+import RTTTApp2 from "../../Assets/Projects/RTTT_App2.png";
 
 function Projects() {
   return (
@@ -15,76 +22,65 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Portfolio <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              images={[RTTTLogin, RTTTAdminDash, RTTTRoute, RTTTVehicles, RTTTApp1, RTTTApp2]}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Real-Time Public Transport Tracking Management System"
+              techLang="React.js, Node.js, Express.js, MongoDB, WebSockets, React Native"
+              description="Developed a Real-Time Public Transport Tracking web application that enables users to track the live location of public transport vehicles using mobile GPS data. The system collects location updates from drivers' mobile devices and displays them on an interactive map, allowing passengers to monitor vehicle positions in real time. Implemented location tracking, route visualization, and real-time updates to improve commuting convenience and reduce waiting times."
+              ghLink="https://github.com/Sumitnaphade004/Real_Time_Public_Transport_Tracking"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              images={[RTTTLogin, RTTTAdminDash, RTTTRoute, RTTTVehicles, RTTTApp1, RTTTApp2]}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Hostel Management System"
+              techLang="React.js, Node.js, Express.js, MySQL"
+              description="Developed a Hostel Management System to streamline hostel operations, including member registration, room allocation, fee management, and resident record maintenance. The system provides an intuitive interface for administrators to manage hostel data efficiently while ensuring organized and secure storage of information. Built using React.js for the frontend, Node.js and Express.js for the backend, and MySQL for database management."
+              ghLink="https://github.com/Sumitnaphade004/Hostel_Management"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              images={[iNoteBookLogin, iNoteBookSignup, iNoteBookHome, iNoteBookAbout]}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="iNoteBook"
+              techLang="React.js, Node.js, Express.js, MongoDB"
+              description="Developed iNotebook, my first full-stack web application, enabling users to securely store and manage their notes in the cloud. Implemented user authentication, CRUD operations for notes, and persistent data storage using MongoDB. Built the frontend with React.js and the backend with Node.js and Express.js, providing a responsive and seamless note-taking experience accessible from anywhere."
+              ghLink="https://github.com/Sumitnaphade004/iNoteBook"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              images={newsApp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="News App"
+              techLang="JavaScript, React.js, Bootstrap, NewsAPI"
+              description="Developed a responsive News App that fetches real-time news articles from a free News API and displays them to users in an organized and user-friendly interface. Built the frontend using React and the backend using Node.js and Express to handle API requests efficiently. Implemented category-wise news browsing, dynamic content rendering, and a clean, responsive UI for an enhanced reading experience."
+              ghLink="https://github.com/Sumitnaphade004/NewsApp-React.js"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              images={[textUtilsHome, textUtilsAbout]}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="TextUtils"
+              techLang="JavaScript, React.js, Bootstrap"
+              description="Developed a TextUtils web application that provides various text manipulation and analysis features. Users can convert text to uppercase/lowercase, remove extra spaces, copy text, clear text, and view real-time text statistics such as word count, character count, and estimated reading time. Designed a responsive and user-friendly interface using React and Bootstrap for a seamless user experience."
+              ghLink="https://github.com/Sumitnaphade004/TextUtils-React"
+              demoLink="https://sumitnaphade004.github.io/TextUtils-React/"
             />
           </Col>
         </Row>

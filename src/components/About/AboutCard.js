@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaHandPointRight } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -33,13 +33,13 @@ function AboutCard() {
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Building Personal Projects 🚀
+              <FaHandPointRight className="mx-3" /> Building Personal Projects 🚀
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring New Technologies 💡
+              <FaHandPointRight className="mx-3" /> Exploring New Technologies 💡
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <FaHandPointRight className="mx-3" /> Playing Games 🎮
             </li>
           </ul>
 
@@ -47,7 +47,7 @@ function AboutCard() {
             "Turning ideas into scalable digital experiences."
           </p>
 
-          <footer className="blockquote-footer">Sumit</footer>
+          {/* <footer className="blockquote-footer">Sumit</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

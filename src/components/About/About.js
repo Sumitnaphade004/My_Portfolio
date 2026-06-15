@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/AboutImg.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -14,12 +14,11 @@ function About() {
       <Particle />
       <Container fluid className="about-section">
         <Container>
-          <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Row style={{ justifyContent: "center"}}>
             <Col
               md={7}
               style={{
                 justifyContent: "center",
-                paddingTop: "30px",
                 paddingBottom: "50px",
               }}
             >
@@ -31,9 +30,9 @@ function About() {
             <Col
               md={5}
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
-              className="about-img"
+              className="about-img-section"
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img src={laptopImg} alt="about" className="about-img" />
             </Col>
           </Row>
           <h1 className="project-heading">

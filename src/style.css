@@ -458,7 +458,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -616,6 +616,31 @@ button:focus {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
+}
+
+.about-img-container {
+  position: relative;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+  opacity: 0.90;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
 }
 
 @media (max-width: 767px) {

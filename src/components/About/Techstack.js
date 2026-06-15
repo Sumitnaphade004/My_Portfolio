@@ -1,8 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import WebSockets from "../../Assets/TechIcons/WebSockets.svg";
 import Javascript from "../../Assets/TechIcons/Javascript.svg";
+import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Express from "../../Assets/TechIcons/Express.svg";
@@ -25,7 +26,11 @@ function Techstack() {
         <img src={Javascript} alt="javascript" />
         <div className="tech-icons-text">Javascript</div>
       </Col>
-            <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
+        <img src={Typescript} alt="typescript" />
+        <div className="tech-icons-text">TypeScript</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <img src={ReactIcon} alt="react" />
         <div className="tech-icons-text">React.Js</div>
       </Col>

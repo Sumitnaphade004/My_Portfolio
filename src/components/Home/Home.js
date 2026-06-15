@@ -6,7 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -51,7 +50,7 @@ function Home() {
       <Home2 />
 
       <Container>
-        <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
+        <Row style={{ paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
             <h1>Find Me On</h1>
             <p>
