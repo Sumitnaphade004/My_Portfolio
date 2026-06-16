@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.b3da5c66.css",
-    "main.js": "/My_Portfolio/static/js/main.947366f8.js",
+    "main.css": "/My_Portfolio/static/css/main.542f3dde.css",
+    "main.js": "/My_Portfolio/static/js/main.8fd72e1d.js",
     "static/js/453.ace21015.chunk.js": "/My_Portfolio/static/js/453.ace21015.chunk.js",
     "static/media/Home_Image.png": "/My_Portfolio/static/media/Home_Image.9a0ad213b042c3683d1a.png",
     "static/media/AboutImg.png": "/My_Portfolio/static/media/AboutImg.0f673236807af470b5d6.png",
@@ -9,12 +9,16 @@
     "static/media/NewsApp.png": "/My_Portfolio/static/media/NewsApp.c56380644b882702ab54.png",
     "static/media/RTTT_Admin_Dashboard.png": "/My_Portfolio/static/media/RTTT_Admin_Dashboard.1a22b6141058708e2772.png",
     "static/media/RTTT_Login.png": "/My_Portfolio/static/media/RTTT_Login.fe7fc039e1372dd611e4.png",
+    "static/media/Sumit_Software_Dev.pdf": "/My_Portfolio/static/media/Sumit_Software_Dev.1cb4e5087edab981d261.pdf",
     "static/media/RTTT_App2.png": "/My_Portfolio/static/media/RTTT_App2.01637b18e5bc4d54eb36.png",
     "static/media/RTTT_App1.png": "/My_Portfolio/static/media/RTTT_App1.5284282550ba80f6f7db.png",
-    "static/media/Sumit_Software_Dev.pdf": "/My_Portfolio/static/media/Sumit_Software_Dev.0a7c4da12c0e41343631.pdf",
+    "static/media/HM_Dash.png": "/My_Portfolio/static/media/HM_Dash.10302569414bb43d65de.png",
     "static/media/TextUtils_About.png": "/My_Portfolio/static/media/TextUtils_About.3f533fffdbf7cd25669d.png",
+    "static/media/HM_Transactions.png": "/My_Portfolio/static/media/HM_Transactions.482dd5fee69cbe3653e6.png",
+    "static/media/HM_Members.png": "/My_Portfolio/static/media/HM_Members.3ec18c7e5aca1f706b03.png",
     "static/media/RTTT_Vehicles.png": "/My_Portfolio/static/media/RTTT_Vehicles.8bb2e54e9126a6b5f61c.png",
     "static/media/RTTT_Routes.png": "/My_Portfolio/static/media/RTTT_Routes.d1f3255e52dfd08cd89e.png",
+    "static/media/HM_Room.png": "/My_Portfolio/static/media/HM_Room.522b8307764b320e2fe2.png",
     "static/media/iNoteBook_SignUp.png": "/My_Portfolio/static/media/iNoteBook_SignUp.4efb310502234a118c7b.png",
     "static/media/TextUtils_Home.png": "/My_Portfolio/static/media/TextUtils_Home.e2ec08bd8dc323505cf2.png",
     "static/media/iNoteBook_Home.png": "/My_Portfolio/static/media/iNoteBook_Home.87a1eed695568d55daa8.png",
@@ -43,12 +47,12 @@
     "static/media/Tailwind.svg": "/My_Portfolio/static/media/Tailwind.24603c32961e3bfa937c29527c7931cb.svg",
     "static/media/RestAPIs.svg": "/My_Portfolio/static/media/RestAPIs.4ce239057f5f249e0ef365c5e056150e.svg",
     "static/media/Html.svg": "/My_Portfolio/static/media/Html.033bf32d9fb44c317fd59c37c0e3610a.svg",
-    "main.b3da5c66.css.map": "/My_Portfolio/static/css/main.b3da5c66.css.map",
-    "main.947366f8.js.map": "/My_Portfolio/static/js/main.947366f8.js.map",
+    "main.542f3dde.css.map": "/My_Portfolio/static/css/main.542f3dde.css.map",
+    "main.8fd72e1d.js.map": "/My_Portfolio/static/js/main.8fd72e1d.js.map",
     "453.ace21015.chunk.js.map": "/My_Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3da5c66.css",
-    "static/js/main.947366f8.js"
+    "static/css/main.542f3dde.css",
+    "static/js/main.8fd72e1d.js"
   ]
 }
