@@ -3,10 +3,10 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
-import { Link } from "react-router-dom";
-import { FaHome } from "react-icons/fa";
-import { BiSolidUser, BiCodeBlock } from "react-icons/bi";
+import { FaHome, FaLaptopCode, FaBuilding, FaGraduationCap   } from "react-icons/fa";
+import { BiSolidUser } from "react-icons/bi";
 import { IoDocumentText } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -46,42 +46,57 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Link to="homeSection" smooth={true} duration={400} onClick={() => updateExpanded(false)} className="nav-link">
                 <FaHome style={{ marginBottom: "5px" }} /> Home
-              </Nav.Link>
+              </Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
+              <Link
+                to="aboutSection" smooth={true} duration={400}
+                onClick={() => updateExpanded(false)} className="nav-link"
               >
                 <BiSolidUser style={{ marginBottom: "5px" }} /> About
-              </Nav.Link>
+              </Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Link
+                to="experienceSection" smooth={true} duration={400}
+                onClick={() => updateExpanded(false)} className="nav-link"
+              >
+                <FaBuilding  style={{ marginBottom: "5px" }} /> Experience
+              </Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
+              <Link
+                to="projectSection" smooth={true} duration={400}
+                onClick={() => updateExpanded(false)} className="nav-link"
               >
-                <BiCodeBlock
+                <FaLaptopCode
                   style={{ marginBottom: "5px" }}
                 />{" "}
                 Projects
-              </Nav.Link>
+              </Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
+              <Link
+                to="educationSection" smooth={true} duration={400}
+                onClick={() => updateExpanded(false)} className="nav-link"
+              >
+                <FaGraduationCap  style={{ marginBottom: "5px" }} /> Education
+              </Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Link
+                to="resumeSection" smooth={true} duration={400}
+                onClick={() => updateExpanded(false)} className="nav-link"
               >
                 <IoDocumentText style={{ marginBottom: "5px" }} /> Resume
-              </Nav.Link>
+              </Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

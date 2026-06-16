@@ -7,13 +7,13 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <Row style={{ marginTop: "-100px"}}>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
 
-            <p className="home-about-body">
+            <p className="home-about-body" style={{textAlign: "justify"}}>
               Hi, I'm <b className="purple">Sumit Naphade</b>, a Computer Engineering graduate and Full Stack Developer with a strong interest in building practical and user-friendly web and mobile applications.
               enjoy working with technologies like
               <i>

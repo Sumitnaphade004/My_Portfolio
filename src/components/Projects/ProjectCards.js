@@ -93,7 +93,6 @@ function ProjectCards(props) {
           object-fit: contain;
           border-radius: 12px;
           transition: opacity 0.5s ease-in-out;
-          border: 1px solid #c770f0;
         }
 
         .slider-dots {

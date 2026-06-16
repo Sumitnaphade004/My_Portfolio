@@ -13,13 +13,13 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="6" className="footer-copywright d-flex col">
+        <Col md="4" className="footer-copywright d-flex col justify-content-start  align-items-center">
           <div href="/" className="mx-3">
             <img src={logo} className="" alt="brand" style={{ width: "90px" }} />
           </div>
           <h3>Designed and Developed by Sumit Naphade</h3>
         </Col>
-        <Col md="2" className="footer-copywright">
+        <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
         </Col>
         <Col md="4" className="footer-body">

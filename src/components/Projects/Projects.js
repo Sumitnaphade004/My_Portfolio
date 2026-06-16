@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
 import newsApp from "../../Assets/Projects/NewsApp.png";
 import textUtilsHome from "../../Assets/Projects/TextUtils_Home.png";
 import textUtilsAbout from "../../Assets/Projects/TextUtils_About.png";
@@ -15,15 +14,18 @@ import RTTTRoute from "../../Assets/Projects/RTTT_Routes.png";
 import RTTTVehicles from "../../Assets/Projects/RTTT_Vehicles.png";
 import RTTTApp1 from "../../Assets/Projects/RTTT_App1.png";
 import RTTTApp2 from "../../Assets/Projects/RTTT_App2.png";
+import HM_Home from "../../Assets/Projects/HM_Dash.png";
+import HM_Members from "../../Assets/Projects/HM_Members.png";
+import HM_Rooms from "../../Assets/Projects/HM_Room.png";
+import HM_Txn from "../../Assets/Projects/HM_Transactions.png";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Portfolio <strong className="purple">Projects </strong>
-        </h1>
+        <div className="section-divider">
+          <span>My Portfolio <strong className="purple">Projects </strong></span>
+        </div>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
@@ -41,7 +43,7 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              images={[RTTTLogin, RTTTAdminDash, RTTTRoute, RTTTVehicles, RTTTApp1, RTTTApp2]}
+              images={[HM_Home, HM_Rooms, HM_Members, HM_Txn]}
               isBlog={false}
               title="Hostel Management System"
               techLang="React.js, Node.js, Express.js, MySQL"

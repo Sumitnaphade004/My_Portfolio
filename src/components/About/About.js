@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
@@ -11,9 +10,11 @@ function About() {
   return (
     <>
       {" "}
-      <Particle />
       <Container fluid className="about-section">
         <Container>
+          <div className="section-divider">
+            <span>Know Who <strong className="purple">I'M</strong></span>
+          </div>
           <Row style={{ justifyContent: "center"}}>
             <Col
               md={7}
@@ -22,9 +23,6 @@ function About() {
                 paddingBottom: "50px",
               }}
             >
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                Know Who <strong className="purple">I'M</strong>
-              </h1>
               <Aboutcard />
             </Col>
             <Col
@@ -35,13 +33,13 @@ function About() {
               <img src={laptopImg} alt="about" className="about-img" />
             </Col>
           </Row>
-          <h1 className="project-heading">
+          <h1 className="project-heading my-4">
             Professional <strong className="purple">Skillset </strong>
           </h1>
 
           <Techstack />
 
-          <h1 className="project-heading">
+          <h1 className="project-heading my-4">
             <strong className="purple">Tools</strong> I use
           </h1>
           <Toolstack />

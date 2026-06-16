@@ -6,7 +6,7 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0" style={{textAlign: "justify"}}>
           <p style={{ textAlign: "justify" }}>
             Hi everyone! I'm <span className="purple">Sumit Naphade</span> from{" "}
             <span className="purple">Jalgaon, India</span>.
@@ -43,7 +43,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(155 126 172)" }} className="text-center">
             "Turning ideas into scalable digital experiences."
           </p>
 
