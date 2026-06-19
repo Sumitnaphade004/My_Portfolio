@@ -946,8 +946,49 @@ button:focus {
 .experience-header {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-info {
+  flex: 1;
+}
+
+.experience-role {
+  display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.experience-company {
+  display: inline-block;
+  margin-top: 6px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #c770f0;
+}
+
+.experience-company:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .experience-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experience-role {
+    font-size: 1.2rem;
+  }
+
+  .experience-badge {
+    margin-top: 8px;
+  }
 }
 
 .experience-badge {
@@ -956,6 +997,9 @@ button:focus {
   padding: 8px 16px;
   border-radius: 25px;
   font-size: 0.9rem;
+  white-space: nowrap;
+  border: 1px solid rgba(199, 112, 240, 0.3);
+  font-weight: 600;
 }
 
 .experience-meta {

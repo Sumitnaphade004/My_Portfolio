@@ -18,6 +18,8 @@ import HM_Home from "../../Assets/Projects/HM_Dash.png";
 import HM_Members from "../../Assets/Projects/HM_Members.png";
 import HM_Rooms from "../../Assets/Projects/HM_Room.png";
 import HM_Txn from "../../Assets/Projects/HM_Transactions.png";
+import RPS from "../../Assets/Projects/RPS.png";
+import TicTacToe from "../../Assets/Projects/TicTacToe.png";
 
 function Projects() {
   return (
@@ -83,6 +85,30 @@ function Projects() {
               description="Developed a TextUtils web application that provides various text manipulation and analysis features. Users can convert text to uppercase/lowercase, remove extra spaces, copy text, clear text, and view real-time text statistics such as word count, character count, and estimated reading time. Designed a responsive and user-friendly interface using React and Bootstrap for a seamless user experience."
               ghLink="https://github.com/Sumitnaphade004/TextUtils-React"
               demoLink="https://sumitnaphade004.github.io/TextUtils-React/"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              images={RPS}
+              isBlog={false}
+              title="Rock Paper Scissor"
+              techLang="HTML, CSS, JavaScript"
+              description="Built a Rock Paper Scissors game using HTML, CSS, and JavaScript that allows users to play against the computer. Implemented random computer move generation, score tracking, result evaluation, and dynamic UI updates using DOM manipulation. Added responsive design and smooth animations to create an interactive and enjoyable gaming experience."
+              ghLink="https://github.com/Sumitnaphade004/Rock-Paper-Scissor"
+              demoLink="https://sumitnaphade004.github.io/Rock-Paper-Scissor/"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              images={TicTacToe}
+              isBlog={false}
+              title="Tic Tac Toe"
+              techLang="HTML, CSS, Javascript"
+              description="Developed an interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript where users compete against a computer opponent. Implemented game logic for move validation, win/draw detection, turn management, and automatic computer moves. Designed a responsive user interface with engaging animations and game reset functionality to enhance the overall user experience."
+              ghLink="https://github.com/Sumitnaphade004/Tic-Tac-Toe"
+              demoLink="https://sumitnaphade004.github.io/Tic-Tac-Toe/"
             />
           </Col>
         </Row>
